@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 50px auto;
+  display: block;
+}
+
+form > button {
+  display: block;
+  margin: 25px auto;
+  width: 100%;
+  padding: 25px;
+}
+
+.row{
+  margin-top: 75px;
+}
