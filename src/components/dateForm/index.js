@@ -15,7 +15,7 @@ class DateForm extends Component {
           </div>
           <div className="form-group">
             <label>Year</label>
-            <input type="number" className="form-control" name="year" placeholder="Enter Year" />
+            <input type="number" className="form-control" name="year" placeholder="Enter Year" required />
           </div>
 
           <button type="submit" className="btn btn-primary">Show Events</button>
