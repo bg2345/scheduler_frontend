@@ -33,6 +33,16 @@ class Events extends Component {
 
     let events = await response.json();
 
+    // sort by month then by day
+    events.sort(function(a, b){
+      return a.month - b.month;
+    })
+
+    events.sort(function(a, b){
+      if (a.month === b.month){
+        return a.day - b.day;
+      }
+    });
 
     // console.log(data);
     this.setState({ events });
